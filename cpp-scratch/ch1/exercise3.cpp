@@ -10,13 +10,18 @@
 using namespace std;
 
 void pause();        // Prototype
+void just_print();
 
-int main() {
+//int main(int argc, const char * argv[]) {
+//    just_print();
+//    return 0;
+//}
+
+void just_print(){
     cout << endl << "Dear reader, "
-         << endl << "have a ";
+    << endl << "have a ";
     pause();
     cout << "!" << endl;
-    return 0;
 }
 
 void pause(){
