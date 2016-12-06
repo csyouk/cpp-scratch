@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		981D5B9A1DE9696200EA972C /* manipulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 981D5B991DE9696200EA972C /* manipulator.cpp */; };
+		981E7CFF1DF56795008ACA4C /* do-while.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 981E7CFE1DF56795008ACA4C /* do-while.cpp */; };
+		981E7D021DF569D6008ACA4C /* macro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 981E7D011DF569D6008ACA4C /* macro.cpp */; };
 		9861914E1DE6B9B0006F962F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9861914D1DE6B9B0006F962F /* main.cpp */; };
 		986191561DE6C350006F962F /* exercise3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 986191551DE6C350006F962F /* exercise3.cpp */; };
 		986191591DE6C825006F962F /* max_int.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 986191581DE6C825006F962F /* max_int.cpp */; };
@@ -28,6 +31,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		981D5B991DE9696200EA972C /* manipulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = manipulator.cpp; path = ch4/manipulator.cpp; sourceTree = "<group>"; };
+		981E7CFE1DF56795008ACA4C /* do-while.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "do-while.cpp"; path = "ch6/do-while.cpp"; sourceTree = "<group>"; };
+		981E7D011DF569D6008ACA4C /* macro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = macro.cpp; path = ch7/macro.cpp; sourceTree = "<group>"; };
 		9861914A1DE6B9B0006F962F /* cpp-scratch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-scratch"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9861914D1DE6B9B0006F962F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		986191551DE6C350006F962F /* exercise3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = exercise3.cpp; path = ch1/exercise3.cpp; sourceTree = "<group>"; };
@@ -48,6 +54,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		981D5B981DE9694700EA972C /* ch4 */ = {
+			isa = PBXGroup;
+			children = (
+				981D5B991DE9696200EA972C /* manipulator.cpp */,
+			);
+			name = ch4;
+			sourceTree = "<group>";
+		};
+		981E7CFD1DF5677F008ACA4C /* ch6 */ = {
+			isa = PBXGroup;
+			children = (
+				981E7CFE1DF56795008ACA4C /* do-while.cpp */,
+			);
+			name = ch6;
+			sourceTree = "<group>";
+		};
+		981E7D001DF569BF008ACA4C /* ch7 */ = {
+			isa = PBXGroup;
+			children = (
+				981E7D011DF569D6008ACA4C /* macro.cpp */,
+			);
+			name = ch7;
+			sourceTree = "<group>";
+		};
 		986191411DE6B9B0006F962F = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +97,9 @@
 		9861914C1DE6B9B0006F962F /* cpp-scratch */ = {
 			isa = PBXGroup;
 			children = (
+				981E7D001DF569BF008ACA4C /* ch7 */,
+				981E7CFD1DF5677F008ACA4C /* ch6 */,
+				981D5B981DE9694700EA972C /* ch4 */,
 				9861915D1DE6D588006F962F /* ch3 */,
 				986191571DE6C809006F962F /* ch2 */,
 				986191541DE6BDA8006F962F /* ch1 */,
@@ -158,11 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981E7D021DF569D6008ACA4C /* macro.cpp in Sources */,
 				9861915C1DE6D184006F962F /* exercise2.cpp in Sources */,
 				9861914E1DE6B9B0006F962F /* main.cpp in Sources */,
 				986191561DE6C350006F962F /* exercise3.cpp in Sources */,
 				986191591DE6C825006F962F /* max_int.cpp in Sources */,
+				981D5B9A1DE9696200EA972C /* manipulator.cpp in Sources */,
 				986191621DE6D5B1006F962F /* test_stdlib.cpp in Sources */,
+				981E7CFF1DF56795008ACA4C /* do-while.cpp in Sources */,
 				986191651DE6DE96006F962F /* prompt.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +326,7 @@
 				986191531DE6B9B0006F962F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
